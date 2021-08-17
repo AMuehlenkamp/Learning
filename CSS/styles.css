@@ -1,4 +1,38 @@
 body {
+  margin: 0;
+}
+
+main {
+  margin-left: 10px;
+  margin-top:60px;
+}
+
+.navbar {
+    background-color: #BD4B4B;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.navbar a {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #BD4B4B;
+  background-color: black;
+}
+
+body {
   background-color: #EEEEEE;
 }
 
